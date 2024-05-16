@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         int[] buttonIds = {R.id.button0, R.id.button1, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.buttonDot, R.id.buttonAC, R.id.buttonAdd, R.id.buttonSubtract, R.id.buttonMultiply, R.id.buttonDivide, R.id.buttonPercent, R.id.buttonParentheses, R.id.buttonEqual, R.id.buttonBack};
         for (int buttonId : buttonIds) {
             Button button = findViewById(buttonId);
-            button.setOnClickListener(this::onButtonClick);
+            button.setOnClickListener(v -> onButtonClick(v));
         }
     }
 
