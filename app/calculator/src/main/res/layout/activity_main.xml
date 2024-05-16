@@ -90,7 +90,7 @@
         style="@style/NumberButtonStyle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="10"
+        android:text="9"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toStartOf="@+id/buttonMultiply"
